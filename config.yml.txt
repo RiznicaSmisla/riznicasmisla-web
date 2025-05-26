@@ -3,13 +3,13 @@ backend:
   repo: RiznicaSmisla/riznicasmisla-web
   branch: main
 
-media_folder: "images/uploads"
+media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
   - name: "novosti"
     label: "Novosti"
-    folder: "novosti"
+    folder: "content/novosti"
     create: true
     slug: "{{slug}}"
     fields:
