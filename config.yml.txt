@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main  # grana u tvom GitHub repozitoriju
+
+media_folder: "static/images"  # gdje ćeš uploadati slike
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Stranice"
+    files:
+      - file: "index.html"
+        label: "Početna stranica"
+        name: "home"
+        fields:
+          - {label: "Naslov", name: "title", widget: "string"}
+          - {label: "Opis", name: "description", widget: "text"}
+          - {label: "Podnaslov", name: "subtitle", widget: "string"}
+          - {label: "Sadržaj", name: "content", widget: "markdown"}
