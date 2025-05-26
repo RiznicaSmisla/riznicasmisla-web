@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: riznicasmisla/riznicasmisla-web
+  repo: RiznicaSmisla/riznicasmisla-web
   branch: main
 
 media_folder: "images/uploads"
