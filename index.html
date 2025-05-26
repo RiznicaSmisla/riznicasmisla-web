@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Riznica Smisla</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0; padding: 0;
+      color: #333;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    #logo {
+      height: 50px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #007acc;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img id="logo" src="logo.png" alt="Logo Riznica Smisla" />
+    <nav>
+      <a href="usluge.html">Usluge</a>
+      <a href="omeni.html">O meni</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div>Kontakt: info@riznicasmisla.hr</div>
+  </header>
+  <main>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+
+    <h2>{{ subtitle }}</h2>
+    <p>{{ content }}</p>
+  </main>
+</body>
+</html>
